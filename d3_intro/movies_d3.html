@@ -35,8 +35,6 @@
 	                    return (d.Budget_M) + "px";
 	                if(chart == "#profit_chart")
 	                    return ((d.Worldwide_Gross_M - d.Budget_M)* 0.5) + "px";
-	                if(chart == "#gender_chart")
-		                    return ((d.Worldwide_Gross_M - d.Budget_M)* 0.5) + "px";
                 })
                 .select("span")
                     .text(function (d) {

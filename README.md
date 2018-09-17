@@ -1,5 +1,4 @@
 ## Aula do dia 03/09/2018
-
 [index01.html](basic/index01.html)<br>
 [index02.html](basic/index02.html)<br>
 [index03.html](basic/index03.html)<br>
@@ -21,4 +20,11 @@
 [02_margin_scatterplot.html](d3_scale/02_margin_scatterplot.html)<br>
 [movies_scatter.html](d3_scale/movies_scatter.html)<br>
 
-<!-- Para saber mais sobre a sintaxe markdown, veja [este guia](https://guides.github.com/features/mastering-markdown/). -->
+
+## Aula do dia 17/09/2018
+[01_scatterplot.html](d3_update/01_scatterplot.html)<br>
+
+
+<!-- 
+Para saber mais sobre a sintaxe markdown, veja [este guia](https://guides.github.com/features/mastering-markdown/). 
+-->

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Valores das ações da Tesla e do Facebook</title>
+    <link rel="stylesheet" href="css/dc.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/crossfilter.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="js/dc.min.js"></script>
+
+</head>
+<body>
+	<div>
+		<div>
+			<h1> Total apurado em bilheterias por ano </h1>
+        	<span id="chartByYear"></span>
+    	</div>
+    	<div>
+			<h1> Total apurado em bilheterias por gênero </h1>
+        	<span id="chartByGender"></span>
+    	</div>
+    </div>
+    <script type="text/javascript">
+    	let yearChart = dc.barChart('#chartByYear');
+    	let genderChart = dc.barChart('#chartByGender');
+
+    	d3.json('data/movies.json').then(function(data){
+
+    		let facts = crossfilter(data);
+    		
+    		let yearlyDim = facts.dimension(function(d){
+    			return +d.Year;
+    		});
+
+			let yearlyGrossGroup = yearlyDim.group().reduceSum(function(d){
+    			return +d.Worldwide_Gross_M;
+    		});
+
+    		yearChart.width(800)
+				    .height(500)	
+				    .margins({top: 10, right: 0, bottom: 50, left: 50})
+				    .x(d3.scaleBand())
+				    .y(d3.scaleLinear().domain([0, 8000]))
+				    .xUnits(dc.units.ordinal)
+				    .brushOn(false)
+				    .xAxisLabel('Ano')
+				    .yAxisLabel('Total apurado em bilheterias')
+				    .dimension(yearlyDim)
+				    .barPadding(0.10)
+				    .outerPadding(0.05)
+				    .group(yearlyGrossGroup)
+				    .renderLabel(true)
+
+			let genderlyDim = facts.dimension(function(d){
+    			return d.Genre;
+    		});    		 
+
+    		let genderlyGrossGroup = genderlyDim.group().reduceSum(function(d){
+    			return +d.Worldwide_Gross_M;
+    		});
+		    genderChart.width(800)
+				    .height(500)
+				    .margins({top: 10, right: 0, bottom: 50, left: 50})
+				    .x(d3.scaleBand())
+				    .y(d3.scaleLinear().domain([0, 13000]))
+				    .xUnits(dc.units.ordinal)
+				    .brushOn(false)
+				    .xAxisLabel('Gênero')
+				    .yAxisLabel('Total apurado em bilheterias')
+				    .dimension(genderlyDim)
+				    .barPadding(0.10)
+				    .outerPadding(0.05)
+				    .group(genderlyGrossGroup)
+				    .renderLabel(true)
+
+		    dc.renderAll();
+
+    	});
+
+    </script>           
+</body>
+</html>

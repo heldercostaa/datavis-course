@@ -24,6 +24,7 @@
 ## Aula do dia 17/09/2018
 [01_scatterplot.html](d3_update/01_scatterplot.html)<br>
 
+
 ## Aula do dia 24/09/2018
 [index1.html](d3_crossfilter/index1.html)<br>
 [index2.html](d3_crossfilter/index2.html)<br>
@@ -32,6 +33,11 @@
 [index5.html](d3_crossfilter/index5.html)<br>
 [acoes.html](d3_crossfilter/acoes.html)<br>
 [movies_d3_dc.html](d3_crossfilter/movies_d3_dc.html)<br>
+
+
+## Aula do dia 26/09/2018
+[earthquakes.html](d3_crossfilter_2/earthquakes.html)<br>
+
 
 <!-- 
 Para saber mais sobre a sintaxe markdown, veja [este guia](https://guides.github.com/features/mastering-markdown/). 

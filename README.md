@@ -1,12 +1,12 @@
-# Data Visualization Course
-> Helder Costa  
-> Github/Linkedin: heldercostaa  
-> Universidade Federal do Ceará - UFC  
-> Teacher: [Emanuele Santos](https://emanueles.github.io/)  
-> Github Pages: [https://heldercostaa.github.io/datavis-course/](https://heldercostaa.github.io/datavis-course/)  
+# Data Visualization Tasks
+> Helder Costa (github/linkedin: heldercostaa)  
+> Data Visualization
+> Federal University of Ceará  
+> Professor: [Emanuele Santos](https://emanueles.github.io/)  
+> [https://heldercostaa.github.io/datavis-course/](https://heldercostaa.github.io/datavis-course/)  
 
 ### About
-This is the repository to all tasks from this course.
+This is the repository to all tasks from Data Visualization Course from Federal University of Ceará.
 In these tasks, it's used basically HTML, CSS, and JavaSript with D3 and DC libraries to manage graphics.
 
 ## Class of the day 03/09/2018

@@ -1,4 +1,15 @@
-## Aula do dia 03/09/2018
+# Data Visualization Course
+> Helder Costa  
+> Github/Linkedin: heldercostaa  
+> Universidade Federal do Ceará - UFC  
+> Teacher: [Emanuele Santos](https://emanueles.github.io/)  
+> Github Pages: [https://heldercostaa.github.io/datavis-course/](https://heldercostaa.github.io/datavis-course/)  
+
+### About
+This is the repository to all tasks from this course.
+In these tasks, it's used basically HTML, CSS, and JavaSript with D3 and DC libraries to manage graphics.
+
+## Class of the day 03/09/2018
 [index01.html](basic/index01.html)<br />
 [index02.html](basic/index02.html)<br />
 [index03.html](basic/index03.html)<br />
@@ -11,21 +22,21 @@
 [index10.html](basic/index10.html)<br />
 
 
-## Aula do dia 05/09/2018
+## Class of the day 05/09/2018
 [movies_d3.html](d3_intro/movies_d3.html)<br />
 
 
-## Aula do dia 12/09/2018
+## Class of the day 12/09/2018
 [01_scatterplot.html](d3_scale/01_scatterplot.html)<br />
 [02_margin_scatterplot.html](d3_scale/02_margin_scatterplot.html)<br />
 [movies_scatter.html](d3_scale/movies_scatter.html)<br />
 
 
-## Aula do dia 17/09/2018
+## Class of the day 17/09/2018
 [01_scatterplot.html](d3_update/01_scatterplot.html)<br />
 
 
-## Aula do dia 24/09/2018
+## Class of the day 24/09/2018
 [index1.html](d3_crossfilter/index1.html)<br />
 [index2.html](d3_crossfilter/index2.html)<br />
 [index3.html](d3_crossfilter/index3.html)<br />
@@ -35,26 +46,22 @@
 [movies_d3_dc.html](d3_crossfilter/movies_d3_dc.html)<br />
 
 
-## Aula do dia 26/09/2018
+## Class of the day 26/09/2018
 [earthquakes.html](d3_crossfilter_2/earthquakes.html)<br />
 
 
-## Aula do dia 03/10/2018
+## Class of the day 03/10/2018
 [chicago.html](d3_spacial/chicago.html)<br />
 
 
-## Aula do dia 10/10/2018
+## Class of the day 10/10/2018
 [songs.html](d3_networks_trees/songs.html)<br />
 [lesmiserables.html](d3_networks_trees/lesmiserables.html)<br />
 
-## Aula do dia 22/10/2018
+## Class of the day 22/10/2018
 [usa.html](color-d3/usa.html)<br />
 [crimes.html](color-d3/crimes.html)<br />
 
-## Aula do dia 31/10/2018
+## Class of the day 31/10/2018
 [usa.html](d3_interactive/usa.html)<br />
 [earthquakes.html](d3_interactive/earthquakes.html)<br />
-
-<!-- 
-Para saber mais sobre a sintaxe markdown, veja [este guia](https://guides.github.com/features/mastering-markdown/). 
--->

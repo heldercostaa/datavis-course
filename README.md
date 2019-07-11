@@ -1,6 +1,6 @@
 # Data Visualization Course
 > Helder Costa ([github](https://github.com/heldercostaa)/[linkedin](https://linkedin.com/in/heldercostaa/): heldercostaa)  
-> Data Visualization
+> Data Visualization  
 > Federal University of Ceará  
 > Professor: [Emanuele Santos](https://emanueles.github.io/)  
 > Site: [https://heldercostaa.github.io/datavis-course/](https://heldercostaa.github.io/datavis-course/)  
